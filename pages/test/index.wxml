@@ -1,0 +1,5 @@
+<!--pages/test/index.wxml-->
+<!-- <text>pages/test/index.wxml</text> -->
+<view class="container">
+  <my-component testName="{{testName}}"></my-component>
+</view>

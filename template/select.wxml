@@ -1,0 +1,12 @@
+<template name="selectTemplate">
+  <view class="select-item"
+   wx:for="{{rows}}"
+   wx:key="unique" 
+   data-item="{{item}}" 
+   data-index="{{index}}">
+     <view class="flex-wrp" data-url="{{item.url}}" bindtap="bindViewTap">
+         <view class="flex-item select-left" data-url="{{item.url}}">{{item.name}}</view>
+         <view class="flex-item select-right" data-url="{{item.url}}">>></view>
+      </view>
+   </view>
+</template>

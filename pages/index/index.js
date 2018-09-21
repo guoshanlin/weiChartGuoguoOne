@@ -7,13 +7,17 @@ Page({
     motto: 'Hello World',
     name: '跳转到滚动界面',
     userInfo: {},
-    testName: '父级值',
+    pageJson:[
+      { name: 'tab滚动', url:'../scrollableTabView/index'},
+      { name: '轮播图', url:'../swiper/index'},
+      { name: '子父组件测试', url:'../test/index'},
+    ],
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
   bindViewTap: function (event) {
-    console.log(event.target.dataset.url);
+    console.log(event);
     wx.navigateTo({
       url: event.target.dataset.url
     })
