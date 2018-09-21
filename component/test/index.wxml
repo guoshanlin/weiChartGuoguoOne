@@ -1,0 +1,5 @@
+<!--component/test/index.wxml-->
+<text>这是一个组件</text>
+<view wx:for="123456" wx:key="unique">
+   <text>{{aaa + index + testName}}</text>
+</view>
