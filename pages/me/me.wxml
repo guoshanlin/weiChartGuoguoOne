@@ -23,6 +23,14 @@
                 <image src='/images/more.png' class='more-img'></image>
             </view>
         </view>
+        <view class='cell b clear' data-path="/packageA/index/index" bindtap="toPage">
+            <image src='/images/collection.png' class='fl cell-img'></image>
+            <text class='fz13 fl'>chart图表菜单</text>
+            <view class='fr'>
+                <text class='fz10'></text>
+                <image src='/images/more.png' class='more-img'></image>
+            </view>
+        </view>
         <view class='cell b clear' data-path="/packageA/collection/collection" bindtap="toPage">
             <image src='/images/collection.png' class='fl cell-img'></image>
             <text class='fz13 fl'>消息通知</text>

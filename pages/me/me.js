@@ -14,6 +14,10 @@ Page({
       { name: '子父组件测试', url: '../test/index' },
     ],
   },
+  toPage: function (e) {
+    var path = e.currentTarget.dataset.path
+    wx.navigateTo({ url: path })
+  },
 
   /**
    * 生命周期函数--监听页面加载

@@ -9,6 +9,21 @@
     "pages/me/me",
     "pages/swiper/index"
   ],
+  "subPackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "index/index",
+        "charts/scrollline/scrollline",
+        "charts/radar/radar",
+        "charts/line/line",
+        "charts/column/column",
+        "charts/pie/pie",
+        "charts/ring/ring",
+        "charts/area/area"
+      ]
+    }
+  ],
   "tabBar": {
     "color": "#515151",
     "selectedColor": "#e1244e",

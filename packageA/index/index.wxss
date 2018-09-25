@@ -1,0 +1,8 @@
+/**index.wxss**/
+.container{padding: 0;}
+.list-item {width: 100%;} 
+.cell{height: 92rpx;line-height: 92rpx;padding: 0 20rpx;overflow: hidden;border-bottom: 1px solid #f6f6f6;}
+.cell .cell-img{width: 36rpx;height: 36rpx;vertical-align: middle;margin: 28rpx 12rpx 0 0;}
+.cell .more-img{width: 16px;height: 16px;vertical-align: middle;}
+.top-Nav{margin-bottom: 16rpx;}
+.top-Nav .top-item image{width:42rpx;height:42rpx;}

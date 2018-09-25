@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <block wx:for="{{list}}" wx:key="i">
+    <view class='c2 list-item'>
+      <view class='cell b clear' data-page="{{item.page}}" bindtap="gotoPage">
+        <!-- <image src='/images/collection.png' class='fl cell-img'></image> -->
+        <text class='fz13 fl'>{{item.name}}</text>
+        <view class='fr'>
+          <text class='fz10'>{{item.page}}</text>
+          <image src='/images/more.png' class='more-img'></image>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>
