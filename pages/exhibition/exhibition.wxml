@@ -1,4 +1,4 @@
-<!--index.wxml-->
+<!--pages/exhibition/exhibition.wxml-->
 <import src="../../template/login-popup.wxml" />
 <view class="container">
 
@@ -19,9 +19,9 @@
       <view class='list-item' data-id="{{item.id}}" bindtap="redictAppDetail">
         <image mode="aspectFill" class='img' binderror="errorImage" data-name="{{name}}" data-index="{{index}}" lazy-load="true" src='{{item.imgUrl}}'></image>
         <text class='name hzline2 fz13'>{{item.name}}</text>
-        <view class='tools fz11 clear c3'>
-          <text class='address fl'>{{item.time}}</text>
-          <text class=' fr'>致良知四合院</text>
+        <view class='tools fz11 c3'>
+          <text class='time'>{{item.time}}</text>
+          <text class='address'>{{item.address}}</text>
         </view>
       </view>
     </block>

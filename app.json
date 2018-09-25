@@ -3,9 +3,38 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/scrollableTabView/index",
+    "pages/search/search",
+    "pages/exhibition/exhibition",
     "pages/test/index",
+    "pages/me/me",
     "pages/swiper/index"
   ],
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#e1244e",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/exhibition.png",
+        "selectedIconPath": "images/exhibition-on.png",
+        "text": "我的活动"
+      },
+      {
+        "pagePath": "pages/exhibition/exhibition",
+        "iconPath": "images/category.png",
+        "selectedIconPath": "images/category-on.png",
+        "text": "在线展厅"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me-on.png",
+        "text": "我的"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

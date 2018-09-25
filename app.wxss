@@ -9,6 +9,117 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+} 
+
+.hzline3{overflow:hidden;text-overflow:ellipsis;display: -webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;}
+.hzline2{overflow:hidden;text-overflow:ellipsis;display: -webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.hzline1{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+.fz10{font-size:10px!important;}
+.fz11{font-size:11px!important;}
+.fz12{font-size:12px!important;}
+.fz13{font-size:13px!important;}
+.fz14{font-size:14px!important;}
+.fz15{font-size:fz15!important;}
+.fz16{font-size:16px!important;}
+.fz18{font-size:18px!important;}
+.fz20{font-size:20px!important;}
+.fz24{font-size:24px!important;}
+.fz36{font-size:36px!important;}
+.fz48{font-size:48px!important;}
+.fz64{font-size:64px!important;}
+
+
+.m-l10{margin-left: 10px!important;}
+.m-l20{margin-left: 20px!important;}
+.m-l30{margin-left: 30px!important;}
+.m-l40{margin-left: 40px!important;}
+.m-l50{margin-left: 50px!important;}
+.m-l5{margin-left: 5px!important;}
+.m-l15{margin-left: 15px!important;}
+.m-l25{margin-left: 25px!important;}
+.m-l35{margin-left: 35px!important;}
+.m-l45{margin-left: 45px!important;}
+
+.m-r10{margin-right: 10px!important;}
+.m-r20{margin-right: 20px!important;}
+.m-r30{margin-right: 30px!important;}
+.m-r40{margin-right: 40px!important;}
+.m-r50{margin-right: 50px!important;}
+.m-r5{margin-right: 5px!important;}
+.m-r15{margin-right: 15px!important;}
+.m-r25{margin-right: 25px!important;}
+.m-r35{margin-right: 35px!important;}
+.m-r45{margin-right: 45px!important;}
+
+.m-t10{margin-top: 10px!important;}
+.m-t20{margin-top: 20px!important;}
+.m-t30{margin-top: 30px!important;}
+.m-t40{margin-top: 40px!important;}
+.m-t50{margin-top: 50px!important;}
+.m-t5{margin-top: 5px!important;}
+.m-t15{margin-top: 15px!important;}
+.m-t25{margin-top: 25px!important;}
+.m-t35{margin-top: 35px!important;}
+.m-t45{margin-top: 45px!important;}
+
+.m-b10{margin-bottom: 10px!important;}
+.m-b20{margin-bottom: 20px!important;}
+.m-b30{margin-bottom: 30px!important;}
+.m-b40{margin-bottom: 40px!important;}
+.m-b50{margin-bottom: 50px!important;}
+.m-b5{margin-bottom: 5px!important;}
+.m-b15{margin-bottom: 15px!important;}
+.m-b25{margin-bottom: 25px!important;}
+.m-b35{margin-bottom: 35px!important;}
+.m-b45{margin-bottom: 45px!important;}
+
+.fbox{display:flex;}
+.flex{flex: 1;}
+.posct{display:flex;align-items:center;justify-content:center;}
+
+.clear:before,.clear:after{content:" ";display:table}
+.clear:after{clear:both}
+
+.fl{float:left!important;}
+.fr{float:right!important;}
+.ct{text-align: center;}
+
+.b{background: #fff!important;}
+.b1{background: #e1244e!important;}
+.b2{background: #999!important;}
+
+.c{color: #fff!important;}
+.c1{color: #e1244e!important;}
+.c2{color: #333!important;}
+.c3{color: #999!important;}
+.c4{color: #C1C1C1!important}
+.red{color: #f55}
+
+/* 登录框 */
+.zan-popup{visibility:hidden}.zan-popup--show{visibility:visible}.zan-popup__mask{position:fixed;top:0;left:0;right:0;bottom:0;z-index:10;background:rgba(0,0,0,.7);display:none}.zan-popup__container{position:fixed;left:50%;top:50%;background:#fff;transform:translate3d(-50%,-50%,0);transform-origin:center;transition:all .4s ease;z-index:11;opacity:0}.zan-popup--show .zan-popup__container{opacity:1}.zan-popup--show .zan-popup__mask{display:block}.zan-popup--left .zan-popup__container{left:0;top:auto;transform:translate3d(-100%,0,0)}.zan-popup--show.zan-popup--left .zan-popup__container{transform:translate3d(0,0,0)}.zan-popup--right .zan-popup__container{right:0;top:auto;left:auto;transform:translate3d(100%,0,0)}.zan-popup--show.zan-popup--right .zan-popup__container{transform:translate3d(0,0,0)}.zan-popup--bottom .zan-popup__container{top:auto;left:auto;bottom:0;transform:translate3d(0,100%,0)}.zan-popup--show.zan-popup--bottom .zan-popup__container{transform:translate3d(0,0,0)}.zan-popup--top .zan-popup__container{top:0;left:auto;transform:translate3d(0,-100%,0)}.zan-popup--show.zan-popup--top .zan-popup__container{transform:translate3d(0,0,0)}
+.login-popup .zan-popup__container{background-color:transparent;}
+.login-popup-wrapper{margin:0 25px;}
+.login-popup button{background-color:transparent;padding:0;}
+.login-popup .login-inner{background-color:#fff;padding:10px 15px;border-radius:5px;}
+.login-inner{display:flex;}
+.login-inner .avatar{width:50px;height:50px;margin-right:10px;flex-shrink:0;}
+.login-inner .close-btn{width:20px;height:20px;}
+.login-inner .username{display:flex;align-items:center;}
+.login-inner .username text{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:32rpx;}
+.login-popup .zan-popup__mask{z-index: 1000;}
+.login-popup .zan-popup__container{z-index:1001;}
+.zan-popup .zan-popup__container{width:100%;overflow:visible;}
+.zan-popup .popup-wrapper{width:100%;padding:0 15px;padding-bottom:10px;overflow:visible;}
+.zan-popup .popup-wrapper .popup-title{font-size:16px;padding:15px 0;}
+.zan-popup .btn-primary.confirm{height:50px;line-height:50px;border-radius:0;}
+
+.entry-summary {font-size: 28rpx;line-height:60rpx;letter-spacing:1px;padding: 16rpx 12rpx;}
+.entry-summary image{display: block;margin: 0 auto}
 
 /**template组件模板css**/
 .select-item{width: 100%;padding: 10px;}

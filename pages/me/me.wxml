@@ -1,0 +1,72 @@
+<!--pages/me/me.wxml-->
+<!-- <text>pages/me/me.wxml</text> -->
+<import src="../../template/select.wxml" />
+
+<view class='page-content'>
+
+    <!-- <template is="login-popup" data="{{show: isLoginPopup, userInfo: userInfo}}"></template> -->
+    
+    <view class='header'>
+        <image mode="aspectFill" class='header-bg' src='{{userInfo.avatarUrl}}'></image>
+        <view class='user-info-wrapper'>
+            <image mode="aspectFill" class='userPic' src='{{userInfo.avatarUrl}}'></image>
+            <view class="userName fz13 c">{{userInfo.nickName}}</view>
+        </view>
+    </view>
+
+    <view class='c2 m-t20'>
+        <view class='cell b clear' data-path="/packageA/my-launch/my-launch" bindtap="toPage">
+            <image src='/images/launch.png' class='fl cell-img'></image>
+            <text class='fz13 fl'>我发布的活动</text>
+            <view class='fr'>
+                <text class='fz10'></text>
+                <image src='/images/more.png' class='more-img'></image>
+            </view>
+        </view>
+        <view class='cell b clear' data-path="/packageA/collection/collection" bindtap="toPage">
+            <image src='/images/collection.png' class='fl cell-img'></image>
+            <text class='fz13 fl'>消息通知</text>
+            <view class='fr'>
+                <text class='fz10'></text>
+                <image src='/images/more.png' class='more-img'></image>
+            </view>
+        </view>
+        <!-- <view class='cell b clear' data-path="/packageA/my-attend/my-attend" bindtap="toPage">
+            <image src='/images/list.png' class='fl cell-img'></image>
+            <text class='fz13 fl'>我参加的</text>
+            <view class='fr'>
+                <text class='fz10'></text>
+                <image src='/images/more.png' class='more-img'></image>
+            </view>
+        </view> -->
+        <view class='b cell' style='position: relative;overflow: hidden;'>
+            <view style='position: absolute;top: 7px;left: 0;'>
+                <contact-button type='default-light' size='27' session-from='weapp'></contact-button>
+            </view>
+            <view style='position: relative;z-index: 2;'>
+                <image src='/images/service.png' class='fl cell-img'></image>
+                <text class='fz13 fl'>客服消息</text>
+                <view class='fr'>
+                    <text class='fz10'></text>
+                    <image src='/images/more.png' class='more-img'></image>
+                </view>
+            </view> 
+        </view>
+                <view class='b cell' style='position: relative;overflow: hidden;'>
+            <view style='position: absolute;top: 7px;left: 0;'>
+                <contact-button type='default-light' size='27' session-from='weapp'></contact-button>
+            </view>
+            <view style='position: relative;z-index: 2;'>
+                <image src='/images/about.png' class='fl cell-img'></image>
+                <text class='fz13 fl'>关于聚热传播</text>
+                <view class='fr'>
+                    <text class='fz10'></text>
+                    <image src='/images/more.png' class='more-img'></image>
+                </view>
+            </view> 
+        </view>
+    </view>
+    <!-- <view class='c2 b m-t5'>
+      <template is="selectTemplate" data="{{rows: pageJson, name: 'list'}}" />
+    </view> -->
+</view>
