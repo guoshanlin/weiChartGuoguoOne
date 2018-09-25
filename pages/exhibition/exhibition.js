@@ -6,16 +6,7 @@ Page({
     userInfo: null,
     isLoginPopup: false,
     hasUserInfo: false,
-    list: [
-      { id: '1', name: '2018雁栖湖企业家论坛', time: '2018-10-29至2018-10-31', imgUrl: 'https://www.juniwota.com/jrh/mice/base_files/down?path=files/mice/201808/activity_HLD7B24ZP8HV3GZA_com.jpg',address: '北京市怀柔区'  },
-      { id: '2', name: '2018雁栖湖企业家论坛', time: '2018-10-29至2018-10-31', imgUrl: 'https://www.juniwota.com/jrh/mice/base_files/down?path=files/mice/201808/activity_HLD7B24ZP8HV3GZA_com.jpg', address: '北京市怀柔区' },
-      { id: '3', name: '2018雁栖湖企业家论坛', time: '2018-10-29至2018-10-31', imgUrl: 'https://www.juniwota.com/jrh/mice/base_files/down?path=files/mice/201808/activity_HLD7B24ZP8HV3GZA_com.jpg', address: '北京市怀柔区' },
-      { id: '4', name: '2018雁栖湖企业家论坛', time: '2018-10-29至2018-10-31', imgUrl: 'https://www.juniwota.com/jrh/mice/base_files/down?path=files/mice/201808/activity_HLD7B24ZP8HV3GZA_com.jpg', address: '北京市怀柔区' },
-      { id: '5', name: '2018雁栖湖企业家论坛', time: '2018-10-29至2018-10-31', imgUrl: 'https://www.juniwota.com/jrh/mice/base_files/down?path=files/mice/201808/activity_HLD7B24ZP8HV3GZA_com.jpg', address: '北京市怀柔区' },
-      { id: '6', name: '2018雁栖湖企业家论坛', time: '2018-10-29至2018-10-31', imgUrl: 'https://www.juniwota.com/jrh/mice/base_files/down?path=files/mice/201808/activity_HLD7B24ZP8HV3GZA_com.jpg', address: '北京市怀柔区' },
-      { id: '7', name: '2018雁栖湖企业家论坛', time: '2018-10-29至2018-10-31', imgUrl: 'https://www.juniwota.com/jrh/mice/base_files/down?path=files/mice/201808/activity_HLD7B24ZP8HV3GZA_com.jpg', address: '北京市怀柔区' },
-      { id: '8', name: '2018雁栖湖企业家论坛', time: '2018-10-29至2018-10-31', imgUrl: 'https://www.juniwota.com/jrh/mice/base_files/down?path=files/mice/201808/activity_HLD7B24ZP8HV3GZA_com.jpg', address: '北京市怀柔区' }
-    ]
+    list: { name: '2018雁栖湖企业家论坛', time: '2018-10-29至2018-10-31', imgUrl: '../../images/activity.jpg', address: '北京市怀柔区' }
   },
   //事件处理函数
   bindViewTap: function (event) {

@@ -15,13 +15,13 @@
     </view>
   </view>
   <view class="common-list clear">
-    <block wx:key="i" wx:for="{{list}}">
-      <view class='list-item' data-id="{{item.id}}" bindtap="redictAppDetail">
-        <image mode="aspectFill" class='img' binderror="errorImage" data-name="{{name}}" data-index="{{index}}" lazy-load="true" src='{{item.imgUrl}}'></image>
-        <text class='name hzline2 fz13'>{{item.name}}</text>
+    <block wx:key="i" wx:for="12345678">
+      <view class='list-item' data-id="{{index}}" bindtap="redictAppDetail">
+        <image mode="aspectFill" class='img' binderror="errorImage" data-name="{{list.name}}" data-index="{{index}}" lazy-load="true" src='{{list.imgUrl}}'></image>
+        <text class='name hzline2 fz13'>{{list.name}}</text>
         <view class='tools fz11 c3'>
-          <text class='time'>{{item.time}}</text>
-          <text class='address'>{{item.address}}</text>
+          <text class='time'>{{list.time}}</text>
+          <text class='address'>{{list.address}}</text>
         </view>
       </view>
     </block>
