@@ -1,0 +1,16 @@
+<!--packageA/iviewui/iviewui.wxml-->
+
+<i-button type="primary" bind:click="handleClick">这是一个按钮</i-button>
+<view class="view-wrap">
+<i-row>
+    <i-col span="8" i-class="col-class">col-8</i-col>
+    <i-col span="8" i-class="col-class">col-8</i-col>
+    <i-col span="8" i-class="col-class">col-8</i-col>
+</i-row>
+    <text class="type-title">修改倒计时样式：</text>
+    <i-count-down
+            target="{{targetTime}}"
+            countdown-class="big"
+            clear-timer="{{clearTimer}}"
+    ></i-count-down>
+</view>
