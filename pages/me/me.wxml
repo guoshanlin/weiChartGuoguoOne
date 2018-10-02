@@ -5,7 +5,7 @@
 <view class='page-content'>
 
     <!-- <template is="login-popup" data="{{show: isLoginPopup, userInfo: userInfo}}"></template> -->
-    
+
     <view class='header'>
         <image mode="aspectFill" class='header-bg' src='{{userInfo.avatarUrl}}'></image>
         <view class='user-info-wrapper'>
@@ -26,6 +26,14 @@
         <view class='cell b clear' data-path="/packageA/index/index" bindtap="toPage">
             <image src='/images/collection.png' class='fl cell-img'></image>
             <text class='fz13 fl'>chart图表菜单</text>
+            <view class='fr'>
+                <text class='fz10'></text>
+                <image src='/images/more.png' class='more-img'></image>
+            </view>
+        </view>
+        <view class='cell b clear' data-path="/packageA/iviewui/iviewui" bindtap="toPage">
+            <image src='/images/collection.png' class='fl cell-img'></image>
+            <text class='fz13 fl'>weapp.iviewui组件</text>
             <view class='fr'>
                 <text class='fz10'></text>
                 <image src='/images/more.png' class='more-img'></image>
@@ -58,9 +66,9 @@
                     <text class='fz10'></text>
                     <image src='/images/more.png' class='more-img'></image>
                 </view>
-            </view> 
+            </view>
         </view>
-                <view class='b cell' style='position: relative;overflow: hidden;'>
+        <view class='b cell' style='position: relative;overflow: hidden;'>
             <view style='position: absolute;top: 7px;left: 0;'>
                 <contact-button type='default-light' size='27' session-from='weapp'></contact-button>
             </view>
@@ -71,7 +79,7 @@
                     <text class='fz10'></text>
                     <image src='/images/more.png' class='more-img'></image>
                 </view>
-            </view> 
+            </view>
         </view>
     </view>
     <!-- <view class='c2 b m-t5'>

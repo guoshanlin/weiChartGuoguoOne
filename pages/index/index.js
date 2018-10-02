@@ -60,6 +60,7 @@ Page({
     this.setData({ isLoginPopup: false });
   },
   openLoginPopup() {
-    this.setData({ isLoginPopup: true });
+      this.setData({ isLoginPopup: false });
+    //this.setData({ isLoginPopup: true });
   }
 })
